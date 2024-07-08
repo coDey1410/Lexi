@@ -22,7 +22,7 @@ module.exports = {
       },
     },
   },
-  plugins: [[addVariablesForColors], require("preline/plugin")],
+  plugins: [[addVariablesForColors]],
 };
 //export default config;
 function addVariablesForColors({ addBase, theme }: any) {
