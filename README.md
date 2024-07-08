@@ -35,4 +35,36 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 # Lexi
-# Lexi
+
+## Overview
+Lexi is a versatile language translation application capable of taking voice, text, and file inputs to translate content into more than 15 languages. The app leverages cutting-edge technologies to provide a seamless and efficient user experience.
+
+## Features
+- **Voice Input**: Speak into your device to get instant translations.
+- **Text Input**: Type in text and receive translations in your desired language.
+- **File Input**: Upload files and get the translated content with ease.
+- **Multi-language Support**: Supports translation for more than 15 languages.
+
+## Technologies Used
+- **NextJS 14**: A React framework that provides a robust structure for building scalable web applications.
+- **Aeternity UI**: Utilized for designing a modern and intuitive user interface.
+- **Vercel**: Platform used for deploying the application, ensuring high performance and reliability.
+- **Tailwind CSS**: A utility-first CSS framework used for creating responsive and customizable UI components.
+- **React**: A JavaScript library for building user interfaces, facilitating the development of interactive and dynamic UI elements.
+- **JavaScript**: Core programming language used for building the functionality of the application.
+- **TypeScript**: A superset of JavaScript that adds static types, enhancing code quality and maintainability.
+- **OpenAI**: Integrated for advanced natural language processing and translation capabilities.
+
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Acknowledgements
+- Special thanks to the developers and contributors of the technologies used in this project.
+
+## Contact
+For any questions or inquiries, please contact [utsavdey249@gmail.com].
+
+---
+
+Thank you for using Lexi! We hope it enhances your language translation needs.
