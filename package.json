@@ -36,7 +36,13 @@
   "workspaces": {
     "nohoist": [
       "@tailwindcss/forms",
-      "@tailwindcss/forms/**"
+      "@tailwindcss/forms/**",
+      "**/frontend",
+      "**/frontend/**"
+    ],
+    "packages": [
+      "api",
+      "frontend"
     ]
   }
 }
