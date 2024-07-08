@@ -1,4 +1,5 @@
 "use client";
+import "regenerator-runtime/runtime";
 import { useEffect, useState } from "react";
 import { OpenAI } from "openai";
 
