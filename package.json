@@ -31,7 +31,11 @@
     "eslint-config-next": "14.2.4",
     "postcss": "^8.4.39",
     "tailwindcss": "^3.4.4",
-    "typescript": "^5"
+    "typescript": "^5",
+    "@babel/plugin-transform-typescript": "7.19.3"
+  },
+  "resolutions": {
+    "@babel/plugin-transform-typescript": "7.19.3"
   },
   "workspaces": {
     "nohoist": [
