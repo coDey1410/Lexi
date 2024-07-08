@@ -4,18 +4,18 @@ import SpeechRecognition, {
 } from "react-speech-recognition";
 import { IconMicrophone } from "@tabler/icons-react";
 
-const speechRecognitionComponent = ({ setSourceText }) => {
+const SpeechRecognitionComponent = ({ setSourceText }) => {
   const { transcript, listening } = useSpeechRecognition();
 
   useEffect(() => {
     setSourceText(transcript);
   }, [transcript, setSourceText]);
 
-  const handlingVoiceRecording = () => {
+  const handleVoiceRecording = () => {
     if (listening) {
       SpeechRecognition.stopListening();
     } else {
-      SpeechRecognition.startListening();
+      SpeechRecognition.startListening({ continuous: true });
     }
   };
 
@@ -24,9 +24,10 @@ const speechRecognitionComponent = ({ setSourceText }) => {
       <IconMicrophone
         size={22}
         className="text-gray-400"
-        onClick={handlingVoiceRecording}
+        onClick={handleVoiceRecording}
       />
     </div>
   );
 };
-export default speechRecognitionComponent;
+
+export default SpeechRecognitionComponent;
