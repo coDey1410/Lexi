@@ -14,7 +14,7 @@ import TextArea from "@/components/Inputs/TextArea";
 import FileUpload from "@/components/Inputs/FileUpload";
 import LinkPaste from "@/components/Inputs/LinkPaste";
 import LanguageSelector from "@/components/Inputs/LanguageSelector";
-import useTranslate from "@/hooks/useTranslate";
+import useTranslate from "@/Hooks/useTranslate";
 import { rtfToText } from "@/utils/rtfToText";
 import { cn } from "@/utils/cn";
 import { BackgroundBeams } from "@/components/ui/background-beams";
